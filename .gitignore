@@ -1,0 +1,102 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment files
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Pytest / unittest
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+.tox/
+.nox/
+
+
+
+# Python virtual environments
+Pipfile.lock
+poetry.lock
+*.venv
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Data files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# Model weights / outputs
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+runs/  # often used by TensorBoard
+logs/
+checkpoints/
+outputs/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Docker files (optional)
+*.pid
+*.log
+
+# Spyder IDE
+.spyderproject
+.spyproject
+
+uv.lock
+.idea/
